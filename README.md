@@ -4,4 +4,4 @@
 
 ___
 
-This project is intended to improve our colaboration and also consolidate on all the theoritical learnings on OOP in building a **__Real Problem__**
+This project is intended to improve our colaboration and also consolidate on all the theoritical learnings on OOP in building a *__Real Project__*
