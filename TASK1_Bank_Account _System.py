@@ -5,15 +5,18 @@ withdrwal from accoount, deposit into account
 and checking of balance
 """
 
-class Bank_Account:
+class BankAccount:
     """ The class is used to carry
     withdrawal, deposit and for
     checking balance of class instances.
     """
+    CustomersCount = 0
     def __init__(self, account_number = 444000, account_holder_name = "Paul White", balance = 500000): #The constructor for the class initialised to default values
         self.account_number = account_number
         self.account_holder_name = account_holder_name
         self.balance = balance
+        
+        BankAccount.CustomersCount += 1
 
     def withdrawal(self):                                       #method used to withdraw from account balance
         Acc_No = int(input("Enter your account number: "))
@@ -56,7 +59,7 @@ class Bank_Account:
 
 
 
-customer_Tony = Bank_Account(444000, "Tony Paul", 500000)        #class instance created and initialised with variables
+customer_Tony = BankAccount(444000, "Tony Paul", 500000)        #class instance created and initialised with variables
                                                                 #for account number, name and account balance
 
 
