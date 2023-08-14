@@ -9,6 +9,5 @@ This project is intended to improve our colaboration and also consolidate on all
 
 lets connect on [x](https://twitter.com/21alul21?s=21&t=hajmNpXlb7o71P1c8IDTUA)
 
-|Tools Used|
-|----------|-------|-------|
-|Pycharm   | Vim|
+|Tools Used|vim| Pycharm|
+|----------|-------|----|
